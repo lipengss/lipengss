@@ -22,6 +22,6 @@ jobs:
       - name: Upload Snake.svg
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.tancheshe }} # 确保你在 secrets 中配置了 GITHUB_TOKEN
+          github_token: ${{ secrets.TANCHISHE }} # 确保你在 secrets 中配置了 GITHUB_TOKEN
           publish_dir: ./dist # 确保输出路径正确
           publish_branch: main # 确保你要推送到的分支正确
