@@ -16,7 +16,7 @@ jobs:
       - name: Generate Snake.svg
         uses: Platane/snk@v2
         with:
-          github_user_name: yourusername # 将 yourusername 替换为你的 GitHub 用户名
+          github_user_name: lipengss # 将 yourusername 替换为你的 GitHub 用户名
           outputs: dist/snake.svg
 
       - name: Upload Snake.svg
